@@ -9,7 +9,7 @@ CORS(app)
 
 # Load TFLite model
 interpreter = tf.lite.Interpreter(
-    model_path="phq9_cnn_with_demographics(2).tflite"
+    model_path="phq9_cnn_with_demographics.tflite"
 )
 
 interpreter.allocate_tensors()
