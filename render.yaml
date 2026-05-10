@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: cnn-phq9-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
